@@ -91,10 +91,10 @@ img_file_2 = 'nature.jpg'
 im_1 = Image.open(img_file_1)
 im_2 = Image.open(img_file_2)
 
-#создаём пустую картинку
+#создние пустой картинки
 new_image = Image.new('RGB',(2*im_1.size[0], im_1.size[1]), (250,250,250))
 
-#вставляем изображения
+#вставка изображения
 new_image.paste(im_1,(0,0))
 new_image.paste(im_2,(im_1.size[0],0))
 
